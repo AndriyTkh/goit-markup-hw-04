@@ -192,6 +192,18 @@ h2,h3{
     display: flex;
     gap: 24px;
 }
+.core-values-list-box{
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+
+    flex-shrink: 0;
+    margin-bottom: 8px;
+}
+.core-values-list-box .icon{
+    fill: #000;
+    margin: 24px 100px;
+}
 .core-values-list-item{
     flex-basis: calc((100% - 24px * 3)/4);
 }
@@ -211,7 +223,7 @@ h2,h3{
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-list-container{
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 .team-list-item-title {
     margin-bottom: 8px;
@@ -219,6 +231,21 @@ h2,h3{
 }
 .team-list-item-text {
     text-align: center;
+    margin-bottom: 8px;
+}
+.icon-list{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.team-list-box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+.team-list-box .icon{
+    margin: 12px;
 }
 
 /* || Portfolio */
