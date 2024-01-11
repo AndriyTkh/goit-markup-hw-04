@@ -289,3 +289,21 @@ h2,h3{
     display: inline-block;
     margin-bottom: 16px;
 }
+.obj-title{
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.end-list-box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+.end-list-box:hover,
+.end-list-box:focus{
+    color: #31D0AA;
+}
+.end-section .container{
+    display: flex;
+    gap: 120px;
+}
